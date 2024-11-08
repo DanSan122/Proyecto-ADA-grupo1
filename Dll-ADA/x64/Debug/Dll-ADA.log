@@ -1,0 +1,50 @@
+﻿  pch.cpp
+  algDijkstra.cpp
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algDijkstra.cpp(75,1): error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  algKruskal.cpp
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algKruskal.cpp(71,1): error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  calculoHaversine.cpp
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\calculoHaversine.cpp(20,1): error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Dll-ADA.cpp
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.h(19,21): error C2039: 'vector': is not a member of 'std'
+  (compiling source file '/Dll-ADA.cpp')
+  C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\predefined C++ types (compiler internal)(348,11):
+  see declaration of 'std'
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.h(19,27): error C2143: syntax error: missing ';' before '<'
+  (compiling source file '/Dll-ADA.cpp')
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.h(19,27): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/Dll-ADA.cpp')
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.h(19,33): error C2039: 'tuple': is not a member of 'std'
+  (compiling source file '/Dll-ADA.cpp')
+  C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\predefined C++ types (compiler internal)(348,11):
+  see declaration of 'std'
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.h(19,84): error C2039: 'vector': is not a member of 'std'
+  (compiling source file '/Dll-ADA.cpp')
+  C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\predefined C++ types (compiler internal)(348,11):
+  see declaration of 'std'
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.h(19,96): error C2039: 'tuple': is not a member of 'std'
+  (compiling source file '/Dll-ADA.cpp')
+  C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\predefined C++ types (compiler internal)(348,11):
+  see declaration of 'std'
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.cpp(19,1): error C2653: 'CDllADA': is not a class or namespace name
+  (compiling source file '/Dll-ADA.cpp')
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.cpp(20,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file '/Dll-ADA.cpp')
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.cpp(21,5): warning C4508: 'CDllADA': function should return a value; 'void' return type assumed
+  (compiling source file '/Dll-ADA.cpp')
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.cpp(22,1): error C2617: 'CDllADA': inconsistent return statement
+  (compiling source file '/Dll-ADA.cpp')
+  C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\Dll-ADA.cpp(19,10):
+  see declaration of 'CDllADA'
+  
+  dllmain.cpp
+  Generating Code...
