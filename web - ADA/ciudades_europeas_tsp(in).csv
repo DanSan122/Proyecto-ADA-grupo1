@@ -1,0 +1,21 @@
+Ciudad,País,Latitud,Longitud,Distancia (km),Horas de vuelo,Costo del pasaje (euros)
+Lisboa,Portugal,38.7169,-9.1399,625,1.5,120
+Madrid,España,40.4168,-3.7038,1270,2.5,250
+París,Francia,48.8566,2.3522,1050,2.0,220
+Berlín,Alemania,52.52,13.405,1180,2.2,270
+Roma,Italia,41.9028,12.4964,1130,2.3,230
+Ámsterdam,Países Bajos,52.3676,4.9041,210,0.5,60
+Bruselas,Bélgica,50.8503,4.3517,320,1.0,85
+Viena,Austria,48.2082,16.3738,330,1.0,90
+Praga,República Checa,50.0755,14.4378,525,1.5,130
+Budapest,Hungría,47.4979,19.0402,545,1.5,160
+Varsovia,Polonia,52.2297,21.0122,355,1.0,150
+Copenhague,Dinamarca,55.6761,12.5683,520,1.2,110
+Estocolmo,Suecia,59.3293,18.0686,530,1.3,180
+Oslo,Noruega,59.9139,10.7522,400,1.0,140
+Helsinki,Finlandia,60.1695,24.9355,810,2.5,220
+Atenas,Grecia,37.9838,23.7275,460,1.2,130
+Dublín,Irlanda,53.3498,-6.2603,340,1.0,110
+Londres,Reino Unido,51.5074,-0.1278,645,1.5,190
+Zagreb,Croacia,45.815,15.9819,785,2.0,190
+Sofía,Bulgaria,42.6977,23.3219,810,2.5,220

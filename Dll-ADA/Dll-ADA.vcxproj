@@ -122,7 +122,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;DLLADA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
@@ -156,16 +156,21 @@
   <ItemGroup>
     <ClInclude Include="algDijkstra.h" />
     <ClInclude Include="algKruskal.h" />
+    <ClInclude Include="algPrim.h" />
     <ClInclude Include="Dll-ADA.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="greedyTSP.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algDijkstra.cpp" />
     <ClCompile Include="algKruskal.cpp" />
+    <ClCompile Include="algPrim.cpp" />
     <ClCompile Include="calculoHaversine.cpp" />
+    <ClCompile Include="dinamicaTSP.cpp" />
     <ClCompile Include="Dll-ADA.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="greedyTSP.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

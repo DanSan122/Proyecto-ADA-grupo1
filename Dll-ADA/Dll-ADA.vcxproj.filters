@@ -33,6 +33,12 @@
     <ClInclude Include="algDijkstra.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="greedyTSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algPrim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dll-ADA.cpp">
@@ -51,6 +57,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="algDijkstra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="greedyTSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dinamicaTSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="algPrim.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

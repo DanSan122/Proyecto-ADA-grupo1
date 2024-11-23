@@ -15,8 +15,3 @@ DLLADA_API int fnDllADA(void)
     return 0;
 }
 
-// This is the constructor of a class that has been exported.
-CDllADA::CDllADA()
-{
-    return;
-}

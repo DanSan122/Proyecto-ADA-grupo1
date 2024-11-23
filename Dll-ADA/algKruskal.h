@@ -1,6 +1,4 @@
 #pragma once
-#ifndef KRUSKAL_H
-#define KRUSKAL_H
 
 #include <vector>
 #include <tuple>
@@ -31,6 +29,6 @@ public:
     void unir(int u, int v);
 };
 
-extern "C" DLLADA_API std::vector<std::tuple<int, int, int>> algKruskal(int n, const std::vector<std::tuple<int, int, int>>& aristas);
+DLLADA_API std::vector<std::tuple<int, int, int>> algKruskal(int n, const std::vector<std::tuple<int, int, int>>& aristas);
 
-#endif // KRUSKAL_H
+

@@ -7,19 +7,25 @@
 #ifndef DLLADA_H
 #define DLLADA_H
 
+#include <vector>
+#include <tuple>
+#include <map>
+#include <utility>
+#include <algorithm>
+#include "algDijkstra.h"
+
 #ifdef DLLADA_EXPORTS
 #define DLLADA_API __declspec(dllexport)
 #else
 #define DLLADA_API __declspec(dllimport)
 #endif
 
-extern "C" {
-    DLLADA_API double calculoHaversine(double lat1, double lon1, double lat2, double lon2);
-    DLLADA_API double algDijkstra();
-    DLLADA_API std::vector<std::tuple<int, int, int>> algKruskal(int n, const std::vector<std::tuple<int, int, int>>& aristas);
-    DLLADA_API double algPrim();
-    DLLADA_API double progDinamica();
-    DLLADA_API double algGreedy();
-}
 
-#endif // DLLADA_H
+DLLADA_API double calculoHaversine(double lat1, double lon1, double lat2, double lon2);
+DLLADA_API std::pair<std::map<int, int>, std::map<int, int>> algDijkstra(Graph& G, int origen);
+DLLADA_API std::vector<std::tuple<int, int, int>> algKruskal(int n, const std::vector<std::tuple<int, int, int>>& aristas);
+DLLADA_API double algPrim(int n, const std::vector<std::vector<double>>& graph, std::vector<std::pair<int, int>>& mstEdges);
+DLLADA_API std::pair<std::vector<int>, double> algGreedyTSP(int start, const std::vector<std::vector<double>>& graph);
+
+
+#endif

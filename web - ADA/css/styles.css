@@ -1,0 +1,30 @@
+body {
+    background-color: #f5f5f5;
+}
+
+#destinosDisponibles, #destinosSeleccionados {
+    background-color: #ffffff;
+    min-height: 400px;
+    overflow-y: auto;
+}
+
+.destino-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.destino-item h6 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.destino-item p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #777;
+}
