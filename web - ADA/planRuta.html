@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador de Rutas</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!-- Estilos personalizados -->
+    <link href="css/planRuta.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid p-3">
+        <!-- Título superior -->
+        <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-4">
+            <h5 class="m-0">🛫 Planificador de Rutas</h5>
+            <div>
+                <button class="btn btn-warning me-2">Crear plan de rutas</button>
+                <button class="btn btn-warning">Editar plan de rutas</button>
+            </div>
+        </div>
+
+        <!-- Contenido principal -->
+        <div class="row">
+            <!-- Columna izquierda -->
+            <div class="col-lg-4">
+                <!-- Saved Route Plans -->
+                <div class="mb-4 p-3 border rounded bg-white shadow">
+                    <h6 class="fw-bold mb-3">Planes de ruta guardados</h6>
+                    <div class="route-plan-item p-2 mb-2 border rounded d-flex justify-content-between align-items-center">
+                        <span>Plan de rutas 1</span>
+                        <div>
+                            <button class="btn btn-sm btn-outline-primary me-1">Ver</button>
+                            <button class="btn btn-sm btn-outline-secondary me-1">Editar</button>
+                            <button class="btn btn-sm btn-outline-danger">Delete</button>
+                        </div>
+                    </div>
+                    <div class="route-plan-item p-2 mb-2 border rounded d-flex justify-content-between align-items-center">
+                        <span>Plan de rutas 2</span>
+                        <div>
+                            <button class="btn btn-sm btn-outline-primary me-1">Ver</button>
+                            <button class="btn btn-sm btn-outline-secondary me-1">Editar</button>
+                            <button class="btn btn-sm btn-outline-danger">Delete</button>
+                        </div>
+                    </div>
+                    <div class="route-plan-item p-2 mb-2 border rounded d-flex justify-content-between align-items-center">
+                        <span>Plan de rutas 3</span>
+                        <div>
+                            <button class="btn btn-sm btn-outline-primary me-1">Ver</button>
+                            <button class="btn btn-sm btn-outline-secondary me-1">Editar</button>
+                            <button class="btn btn-sm btn-outline-danger">Delete</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Información del plan -->
+                <div class="p-3 border rounded bg-white shadow">
+                    <h6 class="fw-bold mb-3">Información del plan</h6>
+                    <p><strong>Rentabilidad Total:</strong> $15,000</p>
+                    <p><strong>Costos Acumulados:</strong> $5,000</p>
+                    <p><strong>Ingresos Estimados:</strong> $20,000</p>
+                </div>
+            </div>
+
+            <!-- Columna derecha -->
+            <div class="col-lg-8">
+                <!-- Mapa Interactivo -->
+                <div class="p-3 border rounded bg-white shadow h-100">
+                    <h6 class="fw-bold mb-3">Destinos seleccionados</h6>
+                    <div id="map" class="map-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Configuración del mapa
+        var map = L.map('map').setView([20, 0], 2); // Coordenadas globales
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+    </script>
+</body>
+</html>

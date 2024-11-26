@@ -1,0 +1,45 @@
+body {
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.algorithm-panel {
+    background-color: #eaeaea;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+#map {
+    height: 380px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.btn-warning {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+}
