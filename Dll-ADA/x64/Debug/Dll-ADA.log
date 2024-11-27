@@ -1,37 +1,18 @@
-﻿  algDijkstra.cpp
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algDijkstra.h(24,53): warning C4251: 'Graph::adj_list': 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>' needs to have dll-interface to be used by clients of 'Graph'
-  (compiling source file 'algDijkstra.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\map(72,7):
-      see declaration of 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>'
-  
+﻿  pch.cpp
+  algDijkstra.cpp
   algKruskal.cpp
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algDijkstra.h(24,53): warning C4251: 'Graph::adj_list': 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>' needs to have dll-interface to be used by clients of 'Graph'
-  (compiling source file 'algKruskal.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\map(72,7):
-      see declaration of 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>'
-  
   algPrim.cpp
   calculoHaversine.cpp
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algDijkstra.h(24,53): warning C4251: 'Graph::adj_list': 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>' needs to have dll-interface to be used by clients of 'Graph'
-  (compiling source file 'calculoHaversine.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\map(72,7):
-      see declaration of 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>'
-  
   dinamicaTSP.cpp
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(32,23): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(53,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(54,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(90,29): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
   Dll-ADA.cpp
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algDijkstra.h(24,53): warning C4251: 'Graph::adj_list': 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>' needs to have dll-interface to be used by clients of 'Graph'
-  (compiling source file 'Dll-ADA.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\map(72,7):
-      see declaration of 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>'
-  
   dllmain.cpp
   greedyTSP.cpp
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algDijkstra.h(24,53): warning C4251: 'Graph::adj_list': 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>' needs to have dll-interface to be used by clients of 'Graph'
-  (compiling source file 'greedyTSP.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\map(72,7):
-      see declaration of 'std::map<int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>,std::less<int>,std::allocator<std::pair<const int,std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>>>>'
-  
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(18,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(9,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(59,40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
      Creating library C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\x64\Debug\DllADA.lib and object C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\x64\Debug\DllADA.exp
   Dll-ADA.vcxproj -> C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\x64\Debug\DllADA.dll

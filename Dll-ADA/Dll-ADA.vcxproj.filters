@@ -39,6 +39,9 @@
     <ClInclude Include="algPrim.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="dinamicaTSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dll-ADA.cpp">

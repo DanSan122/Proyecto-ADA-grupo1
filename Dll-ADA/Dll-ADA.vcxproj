@@ -157,6 +157,7 @@
     <ClInclude Include="algDijkstra.h" />
     <ClInclude Include="algKruskal.h" />
     <ClInclude Include="algPrim.h" />
+    <ClInclude Include="dinamicaTSP.h" />
     <ClInclude Include="Dll-ADA.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="greedyTSP.h" />

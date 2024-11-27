@@ -1,7 +1,11 @@
 #include "dll-ada.h"
 #include "algKruskal.h"
 #include <algorithm>
+#include <vector>
+#include <tuple>
+#include <cstring> // Para memcpy
 
+// Clase Grafo
 Grafo::Grafo(int n) : n(n) {}
 
 void Grafo::agregar_arista(int u, int v, int peso) {
@@ -12,6 +16,7 @@ std::vector<std::tuple<int, int, int>> Grafo::obtener_aristas() const {
     return aristas;
 }
 
+// Clase UnionFind
 UnionFind::UnionFind(int tamaño) {
     parent.resize(tamaño);
     rank.resize(tamaño, 0);
@@ -44,7 +49,8 @@ void UnionFind::unir(int u, int v) {
     }
 }
 
-DLLADA_API std::vector<std::tuple<int, int, int>> algKruskal(int n, const std::vector<std::tuple<int, int, int>>& aristas) {
+// Algoritmo principal
+std::vector<std::tuple<int, int, int>> algKruskal(int n, const std::vector<std::tuple<int, int, int>>& aristas) {
     std::vector<std::tuple<int, int, int>> MST;
     Grafo G(n);
     UnionFind uf(n);
@@ -67,4 +73,42 @@ DLLADA_API std::vector<std::tuple<int, int, int>> algKruskal(int n, const std::v
     }
 
     return MST;
+}
+
+// Funciones auxiliares para interoperabilidad C
+extern "C" {
+
+    void* crearGrafo(int n) {
+        return new Grafo(n);
+    }
+
+    void agregarArista(void* grafo, int u, int v, int peso) {
+        static_cast<Grafo*>(grafo)->agregar_arista(u, v, peso);
+    }
+
+    void liberarGrafo(void* grafo) {
+        delete static_cast<Grafo*>(grafo);
+    }
+
+    void ejecutarKruskal(int n, const int* input, int num_aristas, int* output) {
+        // Convertir input plano a vector de tuplas
+        std::vector<std::tuple<int, int, int>> aristas;
+        for (int i = 0; i < num_aristas; ++i) {
+            int peso = input[i * 3];
+            int u = input[i * 3 + 1];
+            int v = input[i * 3 + 2];
+            aristas.emplace_back(peso, u, v);
+        }
+
+        // Ejecutar el algoritmo
+        auto resultado = algKruskal(n, aristas);
+
+        // Convertir el resultado a un arreglo plano
+        int index = 0;
+        for (const auto& arista : resultado) {
+            output[index++] = std::get<0>(arista); // Peso
+            output[index++] = std::get<1>(arista); // Nodo u
+            output[index++] = std::get<2>(arista); // Nodo v
+        }
+    }
 }

@@ -1,5 +1,5 @@
-#ifndef GREEDY_TSP_H
-#define GREEDY_TSP_H
+#ifndef DINAMICA_TSP_H
+#define DINAMICA_TSP_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -11,19 +11,19 @@ extern "C" {
 #define DLLADA_API __declspec(dllimport)
 #endif
 
-    // Estructura para pasar los datos de manera simple
+    // Definimos una estructura para pasar los datos de manera simple
     typedef struct {
         int n;           // Número de ciudades
-        double* matrix;  // Matriz de distancias plana
+        int* matrix;     // Matriz de distancias plana
         int* path;       // Ruta resultante
-        double totalCost; // Costo total del recorrido
-    } GreedyTSPInput;
+        int totalCost;   // Costo total del recorrido
+    } TSPInput;
 
     // Función de integración para JavaScript
-    DLLADA_API void ejecutarGreedyTSP(GreedyTSPInput* input);
+    DLLADA_API void ejecutarDinamicaTSP(TSPInput* input);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // GREEDY_TSP_H
+#endif // DINAMICA_TSP_H
