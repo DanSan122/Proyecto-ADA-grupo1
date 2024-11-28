@@ -1,18 +1,38 @@
 ﻿  pch.cpp
   algDijkstra.cpp
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algDijkstra.cpp(1,9): warning C4005: 'DLLADA_EXPORTS': macro redefinition
+      C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algDijkstra.cpp(1,9):
+      'DLLADA_EXPORTS' previously declared on the command line
+  
   algKruskal.cpp
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algKruskal.cpp(1,9): warning C4005: 'DLLADA_EXPORTS': macro redefinition
+      C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algKruskal.cpp(1,9):
+      'DLLADA_EXPORTS' previously declared on the command line
+  
   algPrim.cpp
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algPrim.cpp(1,9): warning C4005: 'DLLADA_EXPORTS': macro redefinition
+      C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\algPrim.cpp(1,9):
+      'DLLADA_EXPORTS' previously declared on the command line
+  
   calculoHaversine.cpp
   dinamicaTSP.cpp
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(32,23): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(53,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(54,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(90,29): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(1,9): warning C4005: 'DLLADA_EXPORTS': macro redefinition
+      C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(1,9):
+      'DLLADA_EXPORTS' previously declared on the command line
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(34,23): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(55,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(56,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\dinamicaTSP.cpp(92,29): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
   Dll-ADA.cpp
   dllmain.cpp
   greedyTSP.cpp
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(9,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(59,40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(1,9): warning C4005: 'DLLADA_EXPORTS': macro redefinition
+      C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(1,9):
+      'DLLADA_EXPORTS' previously declared on the command line
+  
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(11,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\Dll-ADA\greedyTSP.cpp(61,40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
      Creating library C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\x64\Debug\DllADA.lib and object C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\x64\Debug\DllADA.exp
   Dll-ADA.vcxproj -> C:\Users\diego\Documents\Mis Archivos\Programación\c++\Dll-ADA\x64\Debug\DllADA.dll

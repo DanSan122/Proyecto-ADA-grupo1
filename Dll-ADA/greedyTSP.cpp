@@ -1,3 +1,5 @@
+#define DLLADA_EXPORTS
+#include "dll-ada.h"
 #include "greedyTSP.h"
 #include <vector>
 #include <limits>

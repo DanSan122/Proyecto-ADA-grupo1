@@ -1,3 +1,4 @@
+#define DLLADA_EXPORTS
 #include "dll-ada.h"
 #include "algKruskal.h"
 #include <algorithm>

@@ -1,3 +1,5 @@
+#define DLLADA_EXPORTS
+#include "dll-ada.h"
 #include "algPrim.h"
 #include <vector>
 #include <limits>
